@@ -1,0 +1,53 @@
+.container{
+	display: grid;
+	grid-template-columns: auto 230px 230px 240px 300px auto;
+	grid-template-rows: 121px 163px 340px 342px;
+	grid-gap: 10px;
+}
+
+.menu{
+	grid-column-start: 2;
+	grid-column-end: 4;
+}
+
+.banner{
+	grid-column-start: 2;
+	grid-column-end: 4;
+}
+
+.commando{
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row: 3;
+}
+
+.griepvaccin{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row: 4;
+}
+
+.maxverstappen{
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row: 3;
+}
+
+.netbinnen{
+	grid-column-start: 5;
+	grid-column-end: 6;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+.schandaal{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row: 4;
+}
+
+.zonovergoten{
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row: 4;
+}
